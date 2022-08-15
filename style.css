@@ -1,0 +1,653 @@
+/*CSS Reset / Normalize*/
+
+:root{
+    /* variable de los colores*/
+
+    --cor-de-fundo: #aaaaaa;
+    --cor-de-link: #000;
+}
+
+.tudo{
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*Sección Menu*/
+
+section.menu{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    margin: 30px auto;
+}
+
+.imagenLogo{
+    width: 300px;
+}
+
+/*Seccion Menu Nav Menu List*/
+
+.menu__list{
+    display: flex;
+    justify-content: space-around ;
+    width: 600px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: flex-end;
+}
+
+.title__bio{
+    font-size: xx-large;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.title_subsection{
+    font-size: large;
+    margin: 20px auto;
+}
+
+/*Sección Title*/
+
+section.title{
+    margin: 60px 20px;
+    background: #bcb9b9;
+}
+
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse ;
+    width: 700px;
+    margin: 30px auto;
+
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+
+.title__network{
+    display: flex;
+    justify-content: space-around ;
+    padding: 40px 1px;
+}
+
+
+
+/*Sección About*/
+
+section.about{
+    width: 700px;
+    margin: 30px auto;
+
+}
+
+.about__title{
+    font-size: xx-large;
+    margin: 20px auto;
+}
+
+.about__paragraph{
+    font-size: large;
+    margin: 20px auto;
+    text-align: justify;
+
+}
+.about__paragraph{
+    font-size: large;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+/*Sección Hobbies*/
+
+.skills{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background:#bcb9b9;
+}
+
+.skills__title{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20px ;
+}
+
+.skillsImg{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills__line{
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.skills__box{
+    background-color:#edeaea;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.skills_box_ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.skills__img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Sección Hobbies*/
+
+.hobbies{
+    background-color: #bcb9b9;
+    height: 190px;
+}
+
+.hobbies__title{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0px ;
+}
+
+.hobbies__line{
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.hobbies__box{
+    background-color: #edeaea;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    font-size: 13px;
+    border-radius: 15px;   
+    font-size: 12px; 
+}
+
+.hobbiesImg{
+    width: 60px;
+}
+
+.hobbies__box_ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.academic__title{
+    text-align: center;
+    margin: 70px auto;
+    font-size: xx-large;
+}
+
+.academic__courses{
+    width: 860px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;  
+}
+
+.academic__courses__box{
+    background-color: #edeaea;
+    border-radius: 15Px;
+    display: flex;
+}
+
+.hobbies__box_ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 39px auto;
+    padding: 0 auto;
+    padding: 0;
+    width: 183px;
+    justify-content: flex-start;
+    margin-top: 45px ;
+}
+
+.instituciones{
+    height: 88px;
+    margin: 30px auto;
+}
+
+.academic__courses__item__title{
+    text-align: center;
+
+}
+
+/* experiencia*/
+
+.experience__section__title{
+    text-align: center;
+    margin: 70px auto;
+    font-size: xx-large;
+}
+
+.contenedorDiseIm{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedoruno{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorTamañosUno{
+    width: 150px;
+    /*height: 150px*/;
+    margin: 2px;
+}
+
+.contenedorTamañosUnoGif{
+    width: 150px;
+    /* height: 150px; */
+    margin: 2px;
+}
+
+.contenedordos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorTamañosDos{
+    width: 150px;
+    margin: 2px;
+    height: 228px;
+}
+
+.contenedortres{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 2px;
+}
+
+.experience__img{
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    /*width: 800px;*/
+    align-items: center;
+    margin: 20px;
+}
+
+
+section.experience{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+
+}
+
+.experience__title{
+    font-size: x-large;
+    margin: 10px auto;
+}
+
+.experience__text{
+    font-size: large;
+    margin: 10px auto;
+}
+
+.experience__img{
+    width: 550px;
+}
+
+.experience__info{
+    margin: 30px;
+}
+
+.experience__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience__box2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 800px;
+    align-items: center;
+}
+
+/*Contacto*/
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: initial;
+    width: 700px;
+    margin: 80px auto;
+}
+
+.formcontato__title{
+    font-size: larger;
+    margin: 20px;
+} 
+
+.formcontato__subtext{
+    font-size: larger;
+    margin: 20px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column; 
+    margin: 50px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formcontato__input{
+    margin: 5px;
+    width: 314px;
+    height: 32px;
+}
+
+.formcontato__textarea{
+    margin: 15px;
+    width: 314px;
+}
+
+.formcontato__botao{
+    margin: 18px;
+
+}
+
+/*footeer*/
+
+.footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*section.footer{
+
+}*/
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+    /* Menú */
+    section.menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 350px;
+        /*margin: 18px 70px;*/
+        flex-direction: column;
+    }
+
+    .menu__list {
+        display: flex;
+        justify-content: space-around;
+        width: 600px;
+        font-size: 15px;
+        font-weight: bold;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu__list__item{
+        margin: 5px;
+    }
+
+    /*title*/
+    
+    section.title {
+        margin: 60px 20px;
+        background: #bcb9b9;
+    }
+    
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 300px;
+        /*margin: 30px 81px;*/
+    }
+    
+    .title__bio {
+        font-size: unset;
+        margin: 20px auto;
+        text-align: left;
+    }
+    
+    .title__subsection{
+        font-size: small;
+    }
+    
+    /*About*/
+    
+    section.about {
+        width: 300px;
+        /*margin: 30px 93px;*/
+    }
+    
+    .about__title {
+        font-size: x-large;
+        margin: 20px auto;
+    }
+    
+    .about__paragraph {
+        font-size: small;
+        margin: 20px auto;
+        text-align: justify;
+    }
+    
+    
+    
+    /*Skills*/
+    
+    .skills__line {
+        height: 293px;
+        width: 276px;
+        /*margin: 29px 131px;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .skills__title {
+        /*width: 300px;*/
+        text-align: center;
+        font-size: xx-large;
+        /* margin-top: 20px; */
+        margin: 20px 95px;
+    }
+    
+    /*Hobbies*/
+    
+    .hobbies__title {
+        /*width: 300px;*/
+        text-align: center;
+        font-size: xx-large;
+        margin: 0px 95px;    
+    }
+    
+    .hobbies__line {
+        height: 293px;
+        width: 276px;
+        /*margin: 29px 131px;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;    
+    }
+    
+    .hobbies {
+        background-color: #bcb9b9;
+        height: 396px;
+    }
+    
+    /*Formación Académica*/
+    .academic__title {
+        /*width: 300px;*/
+        text-align: center;
+        font-size: xx-large;
+        margin: 23px 95px;
+    }
+
+    .academic__courses {
+        width: 389px;
+        height: 507px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: small;
+        flex-wrap: wrap;
+    }
+
+    .academic__courses__box {
+        background-color: #bcb9b9;
+        border-radius: 15Px;
+        /* display: flex; */
+        height: 243px;
+        /* margin: 5px; */
+    }
+
+    .academic__courses__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 21px auto;
+        padding: 0 auto;
+        /* padding: 0; */
+        width: 183px;
+        /* justify-content: flex-start; */
+        /* margin-top: 45px; */
+    }
+    
+    
+    
+
+    /*Experiencia Profesional*/
+
+    .experiencie__box {
+        display: flex;
+        flex-direction: column;
+        /* width: 800px; */
+        align-items: center;
+    }
+
+    .experience__box2 {
+        display: flex;
+        flex-direction: column;
+        /*width: 800px;*/
+        align-items: center;
+    }
+
+    .experience__description {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 193px;
+        justify-content: center;
+    }
+
+    .formcontato__img{
+        width: 189px;
+        
+    }
+
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: column;
+        width: 449px;
+        /* height: 213px; */
+        margin: 80px auto;
+        align-items: center;
+    }
+    
+    }
+
+
+/*Mobile*/
+@media (max-width: 425px) {
+    /*body*/
+    body {
+        /* line-height: 1; */
+        width: 618px;
+    }
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+/*Contacto*/
+
+/*Footer*/
+
+
+}
